@@ -8,7 +8,7 @@ require 'productsModel.php';
 $productsModel= new productsModel();
 switch($_SERVER['REQUEST_METHOD']){
     case 'GET':
-        $respuesta = $productsModel->getProducts();
+        $respuesta = (!isset($_GET['id'])) ? $productsModel->getProducts() : $productsModel->getProducts($_GET['id']);
         echo json_encode($respuesta);
     break;
 
