@@ -25,3 +25,7 @@ Paso 5: Visualizar en tu servidor la API, (http://localhost/api-products/) o el 
 - name 
 - description
 - price
+
+## Video de explicación
+
+Si quieres realizar este proyecto paso a paso [te comparto el siguiente enlace](https://www.youtube.com/watch?v=YrT31CbUcVY&list=PL1ZB-EKP1eiS-_VP0PTWe04bRodGJLf8R)
